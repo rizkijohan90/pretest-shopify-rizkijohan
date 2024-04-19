@@ -42,7 +42,7 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 54.5rem;
+  max-width: 100%;
 }
 
 .slideshow__text > * {
@@ -134,6 +134,7 @@ slideshow-component .slideshow.banner {
 slideshow-component:not(.page-width) .slider-buttons {
   border-right: 0;
   border-left: 0;
+  display: none;
 }
 
 .slideshow__control-wrapper {
